@@ -1,0 +1,128 @@
+*{
+  Box-sizing: border-box;
+  Margin:0;
+  Padding:0;
+}
+
+Body{
+  Font-family: ‘Lato’, sans-serif;
+}
+
+.row{
+  Width: 100%;
+}
+
+.menu-title{
+  Text-align: center;
+  Margin-bottom: 30px;
+}
+
+.container{
+ Position: relative;
+ Top:60px;
+ Margin: 15px;
+}
+
+.item{
+  Position: relative;
+  Top: 0;
+  Background-color:#999999;
+  Margin: 15px;
+  Padding: 25px;
+  Border: 3px solid #000;
+}
+
+.item p{
+  Margin-top: 18px;
+  Text-align: justify;
+  Font-size:100%;
+}
+
+.item-title{
+  Position: absolute;
+  Top:0;
+  Right: 0px;
+  Background: green;
+  Padding: 6px 90px;
+  Border-left: 2px solid #000;
+  Border-bottom: 2px solid #000;
+}
+
+#title-one {
+  Background-color: #D59898;
+}
+
+#title-two{
+  Background-color: #C14543;
+}
+
+#title-three{
+  Background-color: #E5D198;
+}
+
+/* Simple Responsive Framework. */
+/*------ Desktop ------*/
+@media (min-width: 992px){
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    Float: left;
+  }
+  .col-lg-1 {
+    Width: 8.33%;
+  }
+  .col-lg-2 {
+    Width: 16.66%;
+  }
+  .col-lg-3 {
+    Width: 25%;
+  }
+  .col-lg-4 {
+    Width: 33.33%;
+  }
+  .col-lg-5 {
+    Width: 41.66%;
+  }
+  .col-lg-6 {
+    Width: 50%;
+  }
+  .col-lg-7 {
+    Width: 58.33%;
+  }
+  .col-lg-8 {
+    Width: 66.66%;
+  }
+  .col-lg-9 {
+    Width: 74.99%;
+  }
+  .col-lg-10 {
+    Width: 83.33%;
+  }
+  .col-lg-11 {
+    Width: 91.66%;
+  }
+  .col-lg-12 {
+    Width: 100%;
+  }
+
+}
+
+
+/*------ Tablet ------*/
+@media (min-width: 768px) and (max-width: 991px){
+  .col-lg-4 {
+    Width: 50%;
+    Float: left;
+  }
+  .col-lg-tablet{
+   Width: 100%;
+   Float: left;
+ }
+}
+
+
+/*------ Mobile ------*/
+@media (max-width: 767px){
+  .col-lg-4{
+    Width: 100%;
+    Float: left;
+  }
+}
